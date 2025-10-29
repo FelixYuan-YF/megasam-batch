@@ -5,7 +5,6 @@ mkdir -p ${OUTPUT_DIR}
 
 CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7
 GPU_NUM=8
-ENHANCED=true  # Set to true to enable enhanced instruction generation
 
 measure_time() {
     local step_number=$1
