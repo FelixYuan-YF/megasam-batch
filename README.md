@@ -1,38 +1,45 @@
-# megasam-batch  
-*Unofficial batch processing tool for MegaSaM*  
+# megasam-batch
+
+*Unofficial batch processing tool for MegaSaM*
 
 For more details about MegaSaM, visit the [MegaSaM Official GitHub Repository](https://github.com/mega-sam/mega-sam).
-  - Inputs: A csv file listing video paths, total frame counts, and fps values.
-  - Outputs: Camera parameters and depth maps saved in a structured output directory.
 
-## 🛠️ Installation Guide  
-1. Clone this repository:  
-   ```bash  
+- Inputs: A csv file listing video paths, total frame counts, and fps values.
+- Outputs: Camera parameters and depth maps saved in a structured output directory.
+
+## 🛠️ Installation Guide
+
+1. Clone this repository:
+
+   ```bash
    git clone https://github.com/FelixYuan-YF/megasam-batch.git  
    cd megasam-batch  
-   ```  
+   ```
+2. Install dependencies:
 
-2. Install dependencies:  
-   ```bash  
+   ```bash
    conda create -n megasam-batch python=3.10 -y
    conda activate megasam-batch
    pip install -r requirements.txt  
-   ```  
+   ```
+3. Download checkpoint files:
 
-3. Download checkpoint files:  
-   ```bash  
+   ```bash
    bash download_checkpoints.sh
-   ```  
+   ```
 
-## 🚀 Quick Start  
+## 🚀 Quick Start
 
 Process a batch of videos using the provided script:
-```bash  
+
+```bash
 bash run.sh
 ```
 
-## Visualization
+## 📷 Visualization
+
 Install the required visualization dependencies:
+
 ```bash
 pip install plotly
 pip install -e viser
