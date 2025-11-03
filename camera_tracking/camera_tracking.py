@@ -25,7 +25,7 @@
 
 import sys
 
-sys.path.append("camera_pose_annotation/base/droid_slam")
+sys.path.append("base/droid_slam")
 from droid import Droid
 from lietorch import SE3
 import argparse
