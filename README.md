@@ -20,7 +20,9 @@ For more details about MegaSaM, visit the [MegaSaM Official GitHub Repository](h
    ```bash
    conda create -n megasam-batch python=3.10 -y
    conda activate megasam-batch
-   pip install -r requirements.txt  
+   pip install -r requirements.txt
+   cd base
+   python setup.py install
    ```
 3. Download checkpoint files:
 
