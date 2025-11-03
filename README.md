@@ -21,6 +21,7 @@ For more details about MegaSaM, visit the [MegaSaM Official GitHub Repository](h
    conda create -n megasam-batch python=3.10 -y
    conda activate megasam-batch
    pip install -r requirements.txt
+   pip install torch_scatter==2.1.2
    cd base
    python setup.py install
    ```
