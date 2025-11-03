@@ -12,7 +12,7 @@ For more details about MegaSaM, visit the [MegaSaM Official GitHub Repository](h
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/FelixYuan-YF/megasam-batch.git  
+   git clone --recursive https://github.com/FelixYuan-YF/megasam-batch.git  
    cd megasam-batch  
    ```
 2. Install dependencies:
